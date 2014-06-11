@@ -1,0 +1,120 @@
+/* Feuille de style pour le site Dattner Création & Communication
+ */
+
+body { 
+ 	background-color: white;
+	color: black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+}
+p {
+	color: black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	text-align: justify;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+p.center {
+	color: black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	text-align: center;
+
+}
+address {
+	text-align: center;
+	font-size: 80%;
+	font-style: normal;
+	letter-spacing: 2px;
+	line-height: 1.5em;
+}
+a, a:link, a:visited {
+	text-decoration: none;
+	out-line: none;
+}
+a:hover, a:focus {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+	background-color: red;
+}
+td {
+	background-color: white;
+	color: black;
+}
+.lien_skip { display: none;}
+* {
+	padding: 0;
+	margin: 0;
+}
+#wrapper {
+	color: black;
+	background-color: white;
+	width: 1024px;
+	margin: 0 auto;
+	text-align: center;
+}
+#bandeau {
+	margin: 0;
+	background-color: black;
+}
+#navigation {
+	background-color: black;
+	width: 100%;
+	height: 18px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+#navigation li {
+	display: inline;
+	list-style: none;
+	background-color: white;
+	margin: 0 0px 0 1px;
+	padding: 0 10px;
+	font-size: 12px;
+}
+#navigation a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+#navigation a:active,
+#navigation a:hover {
+	background-color: red;
+}
+#affiche #nav01 a,
+#logo #nav02 a,
+#annonce #nav03 a,
+#flyer #nav04 a,
+#plaquette #nav05 a,
+#site #nav06 a,
+#carte #nav07 a,
+#signal #nav08 a
+ {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	background-color: red;
+}
+#nav_menu {
+	width: 80%;
+	backgroud-color: white;
+	font-size: 100%;
+	text-align: center;
+	margin: auto;
+}
+#mainBody {
+	margin-top: 10px;
+	background-color: white;
+	
+}
+#footer {
+    background-color: #ffffff;
+	padding: 20px;
+	padding-top: 10px;
+	border-top: 1px solid #000000;
+	margin-top: 20px;
+}
