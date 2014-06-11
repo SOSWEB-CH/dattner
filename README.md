@@ -1,4 +1,4 @@
 dattner
 =======
 
-Portfolio site for graphist
+Portfolio site for graphist.
